@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d170689e.css",
+    "main.js": "/Portfolio/static/js/main.a1c794fc.js",
+    "static/media/me.jpg": "/Portfolio/static/media/me.7b4fa4891dee31c1562e.jpg",
+    "static/media/fa-solid-900.svg": "/Portfolio/static/media/fa-solid-900.33f11e8e33e406b0dc21.svg",
+    "static/media/fa-brands-400.svg": "/Portfolio/static/media/fa-brands-400.5f2a2f236048660df440.svg",
+    "static/media/Montserrat-Regular.ttf": "/Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/fa-solid-900.eot": "/Portfolio/static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot",
+    "static/media/fa-solid-900.ttf": "/Portfolio/static/media/fa-solid-900.aae41ea25bd0dde9f796.ttf",
+    "static/media/MT.png": "/Portfolio/static/media/MT.c2b91734409eff4b6a47.png",
+    "static/media/fa-regular-400.svg": "/Portfolio/static/media/fa-regular-400.c803f540f9bff56c95a4.svg",
+    "static/media/fa-brands-400.eot": "/Portfolio/static/media/fa-brands-400.b09f783b99c88d6989f7.eot",
+    "static/media/fa-brands-400.ttf": "/Portfolio/static/media/fa-brands-400.ec7723ea62ad74c14959.ttf",
+    "static/media/GoogleSans-Italic.ttf": "/Portfolio/static/media/GoogleSans-Italic.40bb50bd202405745006.ttf",
+    "static/media/GoogleSans-MediumItalic.ttf": "/Portfolio/static/media/GoogleSans-MediumItalic.56d4f777a7997e5a10b3.ttf",
+    "static/media/GoogleSans-BoldItalic.ttf": "/Portfolio/static/media/GoogleSans-BoldItalic.d282e9c31d0f894a7f06.ttf",
+    "static/media/GoogleSans-Regular.ttf": "/Portfolio/static/media/GoogleSans-Regular.bec0591b6a291c3ca895.ttf",
+    "static/media/GoogleSans-Medium.ttf": "/Portfolio/static/media/GoogleSans-Medium.963c3e555aaada9ef8a9.ttf",
+    "static/media/GoogleSans-Bold.ttf": "/Portfolio/static/media/GoogleSans-Bold.d907e4bf3e32637a636e.ttf",
+    "static/media/fa-solid-900.woff": "/Portfolio/static/media/fa-solid-900.3ef4f1acb44a2df412bf.woff",
+    "static/media/Agustina.woff": "/Portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/fa-brands-400.woff": "/Portfolio/static/media/fa-brands-400.dc957891d535aa198135.woff",
+    "static/media/fa-solid-900.woff2": "/Portfolio/static/media/fa-solid-900.4a83f63fd7dd55c4ca85.woff2",
+    "static/media/fa-brands-400.woff2": "/Portfolio/static/media/fa-brands-400.1c638e5f7632ea819e77.woff2",
+    "static/media/Nutek.jpg": "/Portfolio/static/media/Nutek.eb9ce8e38d41612cd6a7.jpg",
+    "static/media/isimm.png": "/Portfolio/static/media/isimm.446bd8076103fb8e3e82.png",
+    "static/media/fa-regular-400.eot": "/Portfolio/static/media/fa-regular-400.86ce78132c18df414d83.eot",
+    "static/media/fa-regular-400.ttf": "/Portfolio/static/media/fa-regular-400.235a1aa30ba10c7d00d0.ttf",
+    "static/media/github.png": "/Portfolio/static/media/github.237e2214562c441f67b2.png",
+    "static/media/3WA.png": "/Portfolio/static/media/3WA.76c885f6318ce24b8cd9.png",
+    "static/media/fa-regular-400.woff": "/Portfolio/static/media/fa-regular-400.2ccf005a6998d30de3d3.woff",
+    "static/media/fa-regular-400.woff2": "/Portfolio/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
+    "static/media/gemaddis.png": "/Portfolio/static/media/gemaddis.5fd729e5a85267265615.png",
+    "index.html": "/Portfolio/index.html",
+    "main.d170689e.css.map": "/Portfolio/static/css/main.d170689e.css.map",
+    "main.a1c794fc.js.map": "/Portfolio/static/js/main.a1c794fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d170689e.css",
+    "static/js/main.a1c794fc.js"
+  ]
+}
