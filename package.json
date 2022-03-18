@@ -1,6 +1,6 @@
 {
-  "name": "porfolio",
-  "homepage": "http://harikanani.github.io/PortfolioV2",
+  "name": "portfolio",
+  "homepage": "http://Boubakrifedi.github.io/Portfolio", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
     "baseui": "^10.9.0",
+    "gh-pages": "^3.2.3",
     "glamor": "^2.20.40",
     "glamorous": "^5.0.0",
     "iconify": "^1.4.0",
@@ -29,10 +30,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build && cp build/index.html build/404.html"
   },
   "eslintConfig": {
     "extends": [
@@ -54,5 +55,9 @@
   },
   "devDependencies": {
     "react-hot-loader": "^4.13.0"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

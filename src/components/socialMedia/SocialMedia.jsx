@@ -24,9 +24,9 @@ export default function socialMedia() {
         <i className="fab fa-linkedin-in"></i>
       </a>
       <a
-        // href={`mailto:${socialMediaLinks.gmail}`}
+        href={`mailto:${socialMediaLinks.gmail}`}
         className="icon-button google"
-        onClick={() => openRepoinNewTab ('mailto:${socialMediaLinks.gmail}')}
+        // onClick={() => openRepoinNewTab ('mailto:${socialMediaLinks.gmail}')}
       >
         <i className="fab fa-google"></i>
       </a>

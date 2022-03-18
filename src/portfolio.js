@@ -16,7 +16,7 @@ const greeting = {
     "Frontend Developer with an Embedded system background.",
   quote: "Always learning 🔥",
   resumeLink:
-    "https://drive.google.com/file/d/1a9Nxi1Ww3Pt4SveDb8JUj_S8xRLZsdID/view?usp=sharing",
+    "https://drive.google.com/file/d/1xlIDpvGIgEmYhLj_Qd5nJwk-XsM0GPPG/view?usp=sharing",
   mail: "mailto:fadiiboubakrii@gmail.com",
 };
 
@@ -62,38 +62,46 @@ const skills = {
           },
         },
         {
+          skillName: "jQuery",
+          fontAwesomeClassname: "simple-icons:jquery",
+          style: {
+            color: "#0865A6",
+          },
+        },
+        {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
           },
         },
+        
+        // {
+        //   skillName: "NodeJS",
+        //   fontAwesomeClassname: "simple-icons:node-dot-js",
+        //   style: {
+        //     color: "#339933",
+        //   },
+        // },
+        // {
+        //   skillName: "MongoDB",
+        //   fontAwesomeClassname: "simple-icons:mongodb",
+        //   style: {
+        //     color: "#439743",
+        //   },
+        // },
+        // {
+        //   skillName: "MySQL",
+        //   fontAwesomeClassname: "simple-icons:mysql",
+        //   style: {
+        //     color: "#4479A1",
+        //   },
+        // },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "Github",
+          fontAwesomeClassname: "simple-icons:github",
           style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
-          style: {
-            color: "#0865A6",
+            color: "dark",
           },
         },
         {
@@ -103,12 +111,11 @@ const skills = {
             color: "#207297",
           },
         },
-
         {
-          skillName: "Github",
-          fontAwesomeClassname: "simple-icons:github",
+          skillName: "Firebase",
+          fontAwesomeClassname: "logos-firebase",
           style: {
-            color: "dark",
+            color: "#ffa000",
           },
         },
       ],
@@ -174,7 +181,7 @@ const degrees = {
       ],
       website_link: "http://www.isimm.rnu.tn/public/",
     },
-    
+
   ],
 };
 
@@ -182,7 +189,7 @@ const degrees = {
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship ",
-  description:[
+  description: [
     "I've completed one Internship and i'm now Working.",
     "Always learning 🔥 ",],
   header_image_path: "experience.svg",
@@ -198,11 +205,11 @@ const experience = {
           duration: "Nov 2019 - present",
           location: "Office",
           description: [
-          "⚡ Install, maintain or repair equipment in accordance with commitments made with customers.",
-          "⚡ Diagnose any malfunctions and define the appropriate solutions.",
-          `⚡ Provide strong support and expertise to customers specially " Valeo Vision Morocco " .`,
-          "⚡ Identifying potential additional sales (spare parts, maintenance contracts, etc.) in agreement with the sales teams."
-        ],
+            "⚡ Install, maintain or repair equipment in accordance with commitments made with customers.",
+            "⚡ Diagnose any malfunctions and define the appropriate solutions.",
+            `⚡ Provide strong support and expertise to customers specially " Valeo Vision Morocco " .`,
+            "⚡ Identifying potential additional sales (spare parts, maintenance contracts, etc.) in agreement with the sales teams."
+          ],
           color: "#0071C5",
         },
       ],
@@ -216,7 +223,7 @@ const experience = {
           logo_path: "MT.png",
           duration: "Feb 2019 - Jun 2019",
           location: "Remote Work",
-          description:[
+          description: [
             `⚡ Study and realization of prototype for home automation system " SMART HOUSE " `],
           color: "#4285F4",
         },
@@ -275,12 +282,12 @@ const projects = {
     },
     {
       id: "1",
-      name: "Caht Box",
+      name: "Chat Box",
       url: "https://github.com/Boubakrifedi/Chat-Box",
       description:
         "A React Chat Box .",
       languages: [
-       
+
         {
           name: "React",
           iconifyClass: "logos-react",
@@ -300,7 +307,7 @@ const projects = {
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
-        },  
+        },
       ],
     },
     {
@@ -318,10 +325,37 @@ const projects = {
           name: "firebase",
           iconifyClass: "logos-firebase",
         },
-      
-        
+
+
       ],
     },
+    {
+      id: "3",
+      name: "My Portfolio",
+      url: "https://github.com/Boubakrifedi/Portfolio",
+      description:
+        "A Software development Portfolio .",
+      languages: [
+
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+      ],
+    },
+
   ],
 };
 
