@@ -219,4 +219,7 @@
   .header {
     font-size: 10px;
   }
+  .header .logo {
+    margin-top: -15px;
+  }
 }
