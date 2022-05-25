@@ -355,6 +355,63 @@ const projects = {
         },
       ],
     },
+    {
+      id: "4",
+      name: "AiGot",
+      url: "https://github.com/Boubakrifedi/AiGot",
+      description:
+        "Presentation App for AiGot Company.",
+      languages: [
+
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+      ],
+    },
+{
+    id: "5",
+    name: "SpaceX",
+    url: "https://github.com/Boubakrifedi/SpaceX",
+    description:
+      "Clone app for SpaceX  ",
+    languages: [
+      {
+        name: "TypeScript",
+        iconifyClass: "logos-typescript",
+      },
+
+      {
+        name: "React",
+        iconifyClass: "logos-react",
+      },
+      {
+        name: "HTML5",
+        iconifyClass: "vscode-icons:file-type-html",
+      },
+      {
+        name: "CSS3",
+        iconifyClass: "vscode-icons:file-type-css",
+      },
+      {
+        name: "JavaScript",
+        iconifyClass: "logos-javascript",
+      },
+      
+    ],
+  },
 
   ],
 };
