@@ -20,7 +20,7 @@ function ExperienceAccordion(props) {
               >
                 {section.experiences.map((experience) => {
                   return (
-                    <ExperienceCard experience={experience} theme={theme} key={section.title}/>
+                    <ExperienceCard experience={experience} theme={theme} key={experience.title}/>
                   );
                 })}
               </Panel>

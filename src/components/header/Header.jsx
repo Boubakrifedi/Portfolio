@@ -33,7 +33,7 @@ function Header(props) {
 
   const link = settings.isSplash ? "/splash" : "home";
 
-  const [currTheme, setCurrTheme] = useState(props.theme);
+  const [currTheme, setCurrTheme] = useState(true);
 
   function changeTheme() {
     if (currTheme === "light") {
@@ -46,6 +46,7 @@ function Header(props) {
       setCurrTheme("light");
     }
   }
+
 
   const icon =
     props.theme.name === "dark" ? (
@@ -130,7 +131,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Contact and Resume
+                Contact
               </NavLink>
             </li>
             <button {...styles} onClick={changeTheme}>

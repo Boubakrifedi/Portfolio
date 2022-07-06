@@ -212,6 +212,17 @@ const experience = {
           ],
           color: "#0071C5",
         },
+        {
+          title: "web development",
+          company: "freelance",
+          logo_path: "freelance.jpg",
+          duration: "2021 - present",
+          location: "Remote Work",
+          description: [
+            "⚡ Develop highly interactive Front end / User Interfaces for your website",
+            "⚡ Building responsive website front end using ReactJS"],
+          color: "#4285F4",
+        },
       ],
     },
     {
@@ -229,6 +240,7 @@ const experience = {
         },
       ],
     },
+    
   ],
 };
 
@@ -412,7 +424,34 @@ const projects = {
       
     ],
   },
-
+  {
+    id: "6",
+    name: "EDLIGO ",
+    url: "https://github.com/Boubakrifedi/EDLIGO",
+    description: "This is a Dashboard page for EDLIGO company ",
+    languages: [
+      {
+        name: "REACT",
+        iconifyClass: "logos-react",
+      },
+      {
+        name: "HTML5",
+        iconifyClass: "vscode-icons:file-type-html",
+      },
+      {
+        name: "CSS3",
+        iconifyClass: "vscode-icons:file-type-css",
+      },
+      {
+        name: "JavaScript",
+        iconifyClass: "logos-javascript",
+      },
+      {
+        name: "Material UI ",
+        iconifyClass: "logos:material-ui",
+      },
+    ],
+  },
   ],
 };
 
