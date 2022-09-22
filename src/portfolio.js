@@ -16,7 +16,7 @@ const greeting = {
     "Fullstack Developer with an Embedded system background.",
   quote: "Always learning 🔥",
   resumeLink:
-    "https://drive.google.com/file/d/18qbqDBczBH-twM7_TVMyWj9Vbr991AaA/view?usp=sharing",
+    "https://drive.google.com/file/d/1nRjTNcR_3cHlpPcwgeq7kTLlV18VjlQC/view?usp=sharing",
   mail: "mailto:fadiiboubakrii@gmail.com",
 };
 
