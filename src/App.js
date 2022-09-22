@@ -8,7 +8,7 @@ import { GlobalStyles } from "./global";
 
 function App() {
 
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+  const [theme, setTheme] = useState("light");
   // const useCursor = settings.useCustomCursor;
 
   return (

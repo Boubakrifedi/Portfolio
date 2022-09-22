@@ -4,6 +4,7 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FrontendImg from "./FrontendImg";
+import BackendImg from "./BackendImg";
 import EmbeddedSysImg from "./EmbeddedSysImg";
 
 function GetSkillSvg(props) {
@@ -11,7 +12,8 @@ function GetSkillSvg(props) {
     return <FrontendImg theme={props.theme} />;
   else if (props.fileName === "EmbeddedSysImg")
     return <EmbeddedSysImg theme={props.theme} />;
-}
+    else if (props.fileName === "BackendImg")
+    return <BackendImg theme={props.theme} />;}
 
 function SkillSection(props) {
   const theme = props.theme;
@@ -34,7 +36,7 @@ function SkillSection(props) {
                   </h1>
                 </Fade>
                 <Fade right duration={1500}>
-                  <SoftwareSkill logos={skill.softwareSkills}  />
+                  <SoftwareSkill logos={skill.softwareSkills || skill.Customer}  />
                 </Fade>
                 <Fade right duration={2000}>
                   <div>
@@ -64,7 +66,7 @@ function SkillSection(props) {
                   </h1>
                 </Fade>
                 <Fade left duration={1500}>
-                  <SoftwareSkill logos={skill.Customer} />
+                  <SoftwareSkill logos={skill.Customer || skill.softwareSkills} />
                 </Fade>
                 <Fade left duration={2000}>
                   <div>

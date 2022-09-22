@@ -13,7 +13,7 @@ const greeting = {
   nickname: "Fadou",
   full_name: "Boubakri Fadi",
   subTitle:
-    "Frontend Developer with an Embedded system background.",
+    "Fullstack Developer with an Embedded system background.",
   quote: "Always learning 🔥",
   resumeLink:
     "https://drive.google.com/file/d/18qbqDBczBH-twM7_TVMyWj9Vbr991AaA/view?usp=sharing",
@@ -25,7 +25,6 @@ const socialMediaLinks = {
   github: "https://github.com/Boubakrifedi",
   linkedin: "https://www.linkedin.com/in/boubakri-fadi-11b8a01b7/",
   gmail: "fadiiboubakrii@gmail.com",
-  facebook: "https://www.facebook.com/fadi.boubakri.5/",
   instagram: "https://www.instagram.com/fadiboubakri/?hl=fr",
 };
 
@@ -76,27 +75,6 @@ const skills = {
           },
         },
         
-        // {
-        //   skillName: "NodeJS",
-        //   fontAwesomeClassname: "simple-icons:node-dot-js",
-        //   style: {
-        //     color: "#339933",
-        //   },
-        // },
-        // {
-        //   skillName: "MongoDB",
-        //   fontAwesomeClassname: "simple-icons:mongodb",
-        //   style: {
-        //     color: "#439743",
-        //   },
-        // },
-        // {
-        //   skillName: "MySQL",
-        //   fontAwesomeClassname: "simple-icons:mysql",
-        //   style: {
-        //     color: "#4479A1",
-        //   },
-        // },
         {
           skillName: "Github",
           fontAwesomeClassname: "simple-icons:github",
@@ -111,6 +89,50 @@ const skills = {
             color: "#207297",
           },
         },
+        
+      ],
+    },
+    {
+      title: "Backend Developer",
+      fileName: "BackendImg",
+      skills: [
+        "⚡ Build high-quality applications built with Node, Express, and MongoDB.",
+        "⚡ Apply best practices to build fast, scalable, and secure apps.",
+        "⚡ Build the back-end of a web application."
+      ],
+      softwareSkills: [
+       
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#FFFFFF",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#439743",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#4479A1",
+          },
+        },
+        
+       
         {
           skillName: "Firebase",
           fontAwesomeClassname: "logos-firebase",
@@ -118,10 +140,17 @@ const skills = {
             color: "#ffa000",
           },
         },
+        {
+          skillName: "Github",
+          fontAwesomeClassname: "simple-icons:github",
+          style: {
+            color: "dark",
+          },
+        },
       ],
     },
     {
-      title: "Customer Service Technician",
+      title: "Technical support Technician",
       fileName: "EmbeddedSysImg",
       skills: [
         "⚡ Install, maintain or repair equipment in accordance with commitments made with customers.",
@@ -140,13 +169,27 @@ const skills = {
         }
       ],
     },
+    
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "3W Academy , Maroc",
+      title: "GoMyCode , Tunisia",
+      subtitle: "Back-end Development ",
+      logo_path: "gomycode.png",
+      alt_name: "GoMyCode",
+      duration: "Sep 2022 - Jan 2022",
+      descriptions: [
+        "⚡ Build high-quality applications built with Node, Express, and MongoDB.",
+        "⚡ Apply best practices to build fast, scalable, and secure apps.",
+        "⚡ Build the back-end of a web application."
+      ],
+      website_link: "https://gomycode.com/TN-FR/home",
+    },
+    {
+      title: "3W Academy , Morocco",
       subtitle: "Front-end Development ",
       logo_path: "3WA.png",
       alt_name: "3WA",
@@ -190,7 +233,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship ",
   description: [
-    "I've completed one Internship and i'm now Working.",
+    "I've completed Internships and i'm now Working as full-time job and freelance.",
     "Always learning 🔥 ",],
   header_image_path: "experience.svg",
   sections: [
@@ -198,22 +241,7 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Customer Service Technician",
-          company: "GEMADDIS",
-          company_url: "https://www.gemaddis.com/",
-          logo_path: "gemaddis.png",
-          duration: "Nov 2019 - present",
-          location: "Office",
-          description: [
-            "⚡ Install, maintain or repair equipment in accordance with commitments made with customers.",
-            "⚡ Diagnose any malfunctions and define the appropriate solutions.",
-            `⚡ Provide strong support and expertise to customers specially " Valeo Vision Morocco " .`,
-            "⚡ Identifying potential additional sales (spare parts, maintenance contracts, etc.) in agreement with the sales teams."
-          ],
-          color: "#0071C5",
-        },
-        {
-          title: "web development",
+          title: "Frontend developer",
           company: "freelance",
           logo_path: "freelance.jpg",
           duration: "2021 - present",
@@ -223,6 +251,22 @@ const experience = {
             "⚡ Building responsive website front end using ReactJS"],
           color: "#4285F4",
         },
+        {
+          title: "Technical support Technician",
+          company: "GEMADDIS",
+          company_url: "https://www.gemaddis.com/",
+          logo_path: "gemaddis.png",
+          duration: "Nov 2019 - present",
+          location: "Working between Tunisia && Morocco",
+          description: [
+            "⚡ Install, maintain or repair equipment in accordance with commitments made with customers.",
+            "⚡ Diagnose any malfunctions and define the appropriate solutions.",
+            `⚡ Provide strong support and expertise to customers specially " Valeo Vision Morocco " .`,
+            "⚡ Identifying potential additional sales (spare parts, maintenance contracts, etc.) in agreement with the sales teams."
+          ],
+          color: "#0071C5",
+        },
+        
       ],
     },
     {
