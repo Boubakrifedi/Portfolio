@@ -16,7 +16,7 @@ const greeting = {
     "Fullstack Developer with an Embedded system background.",
   quote: "Always learning 🔥",
   resumeLink:
-    "https://drive.google.com/file/d/1nRjTNcR_3cHlpPcwgeq7kTLlV18VjlQC/view?usp=sharing",
+ "https://drive.google.com/file/d/1VjhaxO6Cs1ZBLEjo-MqO1K4BBA0jAu13/view?usp=sharing" ,
   mail: "mailto:fadiiboubakrii@gmail.com",
 };
 
@@ -180,7 +180,7 @@ const degrees = {
       subtitle: "Back-end Development ",
       logo_path: "gomycode.png",
       alt_name: "GoMyCode",
-      duration: "Sep 2022 - Jan 2022",
+      duration: "Sep 2022 - Dec 2022",
       descriptions: [
         "⚡ Build high-quality applications built with Node, Express, and MongoDB.",
         "⚡ Apply best practices to build fast, scalable, and secure apps.",
@@ -200,17 +200,17 @@ const degrees = {
       ],
       website_link: "https://3wa.ma/",
     },
-    {
-      title: "Higher Institute of Computer Science and Mathematics of Monastir, Tunisia",
-      subtitle: "Master in MicroElectronics and Instrumentation",
-      logo_path: "isimm.png",
-      alt_name: "ISIMM",
-      duration: "2021 - Present",
-      descriptions: [
-        "⚡ I'm currently pursuing my master degree in µElectronics and instrumentation."
-      ],
-      website_link: "http://www.isimm.rnu.tn/public/",
-    },
+    // {
+    //   title: "Higher Institute of Computer Science and Mathematics of Monastir, Tunisia",
+    //   subtitle: "Master in MicroElectronics and Instrumentation",
+    //   logo_path: "isimm.png",
+    //   alt_name: "ISIMM",
+    //   duration: "2021 - Present",
+    //   descriptions: [
+    //     "⚡ I'm currently pursuing my master degree in µElectronics and instrumentation."
+    //   ],
+    //   website_link: "http://www.isimm.rnu.tn/public/",
+    // },
     {
       title: "Higher Institute of Computer Science and Mathematics of Monastir, Tunisia",
       subtitle: "Bachelor in Electronics and Telecommunications",
@@ -242,6 +242,18 @@ const experience = {
       experiences: [
         {
           title: "Frontend developer",
+          company: "AiGot SRL",
+          company_url: "https://aigot.com/",
+          logo_path: "AiGot.jpg",
+          duration: "Sep 2022 - present",
+          location: "Remote Work",
+          description: [
+            "⚡ Development of Software as a Service (SaaS)",
+            "⚡ Develop highly interactive Front end / User Interfaces for websites"],
+          color: "#4285F4",
+        },
+        {
+          title: "Frontend developer",
           company: "freelance",
           logo_path: "freelance.jpg",
           duration: "2021 - present",
@@ -256,7 +268,7 @@ const experience = {
           company: "GEMADDIS",
           company_url: "https://www.gemaddis.com/",
           logo_path: "gemaddis.png",
-          duration: "Nov 2019 - present",
+          duration: "Nov 2019 - Oct 2022",
           location: "Working between Tunisia && Morocco",
           description: [
             "⚡ Install, maintain or repair equipment in accordance with commitments made with customers.",
