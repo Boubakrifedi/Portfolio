@@ -323,8 +323,8 @@ const projects = {
     {
       id: "0",
       name: "Todo App",
-      url: "https://github.com/Boubakrifedi/TodoApp/tree/firebase",
-      description: "This is a Todo App. it will allow you to add your Todo list and to manage them by adding or deleting any item also save them into a firebase",
+      url: "https://myyytoodooapp.netlify.app/",
+      description: "This is a Todo App. it will allow you to add your Todo list and to manage them by adding or deleting any item also save them into a firebase and it's hosted by netlify",
       languages: [
         {
           name: "REACT",
@@ -345,6 +345,10 @@ const projects = {
         {
           name: "Firebase",
           iconifyClass: "logos-firebase",
+        },
+        {
+          name: "Netlify",
+          iconifyClass: "vscode-icons:file-type-netlify",
         },
       ],
     },
