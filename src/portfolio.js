@@ -512,6 +512,46 @@ const projects = {
       },
     ],
   },
+  {
+    id: "7",
+    name: "GoApp",
+    url: "https://socialnetworkapp.netlify.app/",
+    description: "This is a social network app hosted in netlify and vercel ",
+    languages: [
+      {
+        name: "REACT",
+        iconifyClass: "logos-react",
+      },
+      {
+        name: "HTML5",
+        iconifyClass: "vscode-icons:file-type-html",
+      },
+      {
+        name: "SCSS",
+        iconifyClass: "vscode-icons:file-type-scss",
+      },
+      {
+        name: "JavaScript",
+        iconifyClass: "logos-javascript",
+      },
+      {
+        name: "Node",
+        iconifyClass: "logos:nodejs",
+      },
+      {
+        name: "MongoDB",
+        iconifyClass: "vscode-icons:file-type-mongo",
+      },
+      {
+        name: "Netlify",
+        iconifyClass: "vscode-icons:file-type-netlify",
+      },
+      {
+        name: "Vercel",
+        iconifyClass: "logos:vercel-icon",
+      },
+    ],
+  },
   ],
 };
 

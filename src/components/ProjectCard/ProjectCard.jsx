@@ -14,7 +14,7 @@ export default function ProjectCard({ repo, theme }) {
     color: "rgb(88, 96, 105)",
     backgroundColor: "rgb(255, 255, 255)",
     boxShadow: "rgba(0, 0, 0, 0.2) 0px 10px 30px -15px",
-    padding: "2rem",
+    padding: "1.5rem",
     cursor: "pointer",
     borderRadius: "5px",
     height: "100%",
