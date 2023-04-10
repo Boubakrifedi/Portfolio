@@ -16,7 +16,7 @@ const greeting = {
     "Fullstack Developer with an Embedded system background.",
   quote: "Always learning 🔥",
   resumeLink:
- "https://drive.google.com/file/d/1VjhaxO6Cs1ZBLEjo-MqO1K4BBA0jAu13/view?usp=sharing" ,
+ "https://drive.google.com/file/d/15MkeoBBdNNZ9uCYjXN_Edsib8efnBN2V/view?usp=share_link" ,
   mail: "mailto:fadiiboubakrii@gmail.com",
 };
 
@@ -545,6 +545,34 @@ const projects = {
       {
         name: "Netlify",
         iconifyClass: "vscode-icons:file-type-netlify",
+      },
+      {
+        name: "Vercel",
+        iconifyClass: "logos:vercel-icon",
+      },
+    ],
+  },
+  {
+    id: "8",
+    name: "Tic-Tac-Toe",
+    url: "https://tic-tac-toe-boubakrifedi.vercel.app/",
+    description: "This is a Tic-Tac-Toe app hosted vercel ",
+    languages: [
+      {
+        name: "REACT",
+        iconifyClass: "logos-react",
+      },
+      {
+        name: "HTML5",
+        iconifyClass: "vscode-icons:file-type-html",
+      },
+      {
+        name: "CSS3",
+        iconifyClass: "vscode-icons:file-type-css",
+      },
+      {
+        name: "JavaScript",
+        iconifyClass: "logos-javascript",
       },
       {
         name: "Vercel",
