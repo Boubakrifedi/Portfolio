@@ -13,10 +13,10 @@ const greeting = {
   nickname: "Fadou",
   full_name: "Boubakri Fadi",
   subTitle:
-    "Fullstack Developer with an Embedded system background.",
+    "Software Engineer with an Embedded system background.",
   quote: "Always learning 🔥",
   resumeLink:
- "https://drive.google.com/file/d/15MkeoBBdNNZ9uCYjXN_Edsib8efnBN2V/view?usp=share_link" ,
+ "https://drive.google.com/file/d/1CZvFkeeyurrAdldcS-Gh3d1PAErJhyme/view?usp=sharing" ,
   mail: "mailto:fadiiboubakrii@gmail.com",
 };
 
@@ -35,7 +35,9 @@ const skills = {
       fileName: "FrontendImg",
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your website",
-        "⚡ Building responsive website front end using ReactJS",
+        "⚡ Building responsive website front end using ReactJS / Angular",
+        "⚡ Building responsive Apps using React Native",
+        "⚡ Integrating the frontend interfaces with REST APIs",
       ],
       softwareSkills: [
         {
@@ -53,6 +55,20 @@ const skills = {
           },
         },
         {
+          skillName: "Tailwind Css",
+          fontAwesomeClassname: "logos:tailwindcss-icon",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "Sass",
+          fontAwesomeClassname: "logos:sass",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
@@ -61,8 +77,8 @@ const skills = {
           },
         },
         {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
+          skillName: "TypeScript",
+          fontAwesomeClassname: "vscode-icons:file-type-typescript",
           style: {
             color: "#0865A6",
           },
@@ -73,8 +89,21 @@ const skills = {
           style: {
             color: "#61DAFB",
           },
+        }, 
+        {
+          skillName: "React Native",
+          fontAwesomeClassname: "tabler:brand-react-native",
+          style: {
+            color: "#61DAFB",
+          },
         },
-        
+        {
+          skillName: "Angular",
+          fontAwesomeClassname: "devicon:angular",
+          style: {
+            color: "#207297",
+          },
+        },
         {
           skillName: "Github",
           fontAwesomeClassname: "simple-icons:github",
@@ -82,14 +111,7 @@ const skills = {
             color: "dark",
           },
         },
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
-        
+       
       ],
     },
     {
@@ -98,7 +120,7 @@ const skills = {
       skills: [
         "⚡ Build high-quality applications built with Node, Express, and MongoDB.",
         "⚡ Apply best practices to build fast, scalable, and secure apps.",
-        "⚡ Build the back-end of a web application."
+        "⚡ Build the back-end of a web/Mobile application."
       ],
       softwareSkills: [
        
@@ -125,14 +147,12 @@ const skills = {
           },
         },
         {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
+          skillName: "Big Query",
+          fontAwesomeClassname: "skill-icons:gcp-light",
           style: {
             color: "#4479A1",
           },
         },
-        
-       
         {
           skillName: "Firebase",
           fontAwesomeClassname: "logos-firebase",
@@ -149,26 +169,27 @@ const skills = {
         },
       ],
     },
-    {
-      title: "Technical support Technician",
-      fileName: "EmbeddedSysImg",
-      skills: [
-        "⚡ Install, maintain or repair equipment in accordance with commitments made with customers.",
-        "⚡ Diagnose any malfunctions and define the appropriate solutions.",
-        "⚡ Provide strong support and expertise to customers.",
-        "⚡ Identifying potential additional sales (spare parts, maintenance contracts, etc.) in agreement with the sales teams.",
-      ],
-      Customer: [
-        {
-          CustomerName: "NUTEK",
-          logo_path: "Nutek.jpg",
-        },
-        {
-          CustomerName: "Cyberoptics",
-          logo_path: "Cyber.png",
-        }
-      ],
-    },
+    
+    // {
+    //   title: "Technical support Technician",
+    //   fileName: "EmbeddedSysImg",
+    //   skills: [
+    //     "⚡ Install, maintain or repair equipment in accordance with commitments made with customers.",
+    //     "⚡ Diagnose any malfunctions and define the appropriate solutions.",
+    //     "⚡ Provide strong support and expertise to customers.",
+    //     "⚡ Identifying potential additional sales (spare parts, maintenance contracts, etc.) in agreement with the sales teams.",
+    //   ],
+    //   Customer: [
+    //     {
+    //       CustomerName: "NUTEK",
+    //       logo_path: "Nutek.jpg",
+    //     },
+    //     {
+    //       CustomerName: "Cyberoptics",
+    //       logo_path: "Cyber.png",
+    //     }
+    //   ],
+    // },
     
   ],
 };
@@ -180,7 +201,7 @@ const degrees = {
       subtitle: "Back-end Development ",
       logo_path: "gomycode.png",
       alt_name: "GoMyCode",
-      duration: "Sep 2022 - Dec 2022",
+      duration: "Sep 2021 - Dec 2021",
       descriptions: [
         "⚡ Build high-quality applications built with Node, Express, and MongoDB.",
         "⚡ Apply best practices to build fast, scalable, and secure apps.",
@@ -193,7 +214,7 @@ const degrees = {
       subtitle: "Front-end Development ",
       logo_path: "3WA.png",
       alt_name: "3WA",
-      duration: "Nov 2021 - Fev 2022",
+      duration: "Oct 2020 - Fev 2021",
       descriptions: [
         "⚡ Develop highly interactive Front end / User Interfaces for your website",
         "⚡ Building responsive website front end using ReactJS",
@@ -216,7 +237,7 @@ const degrees = {
       subtitle: "Bachelor in Electronics and Telecommunications",
       logo_path: "isimm.png",
       alt_name: "ISIMM",
-      duration: "2015 - 2019",
+      duration: "Sep 2015 - Jun 2019",
       descriptions: [
         "⚡ The mastery of information and communication technologies is the key component of this training.",
         "⚡ The training provides basic knowledge in the fields of Telecommunications and New Technologies for Embedded Systems",
@@ -241,26 +262,46 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Frontend developer",
-          company: "AiGot SRL",
-          company_url: "https://aigot.com/",
-          logo_path: "AiGot.jpg",
-          duration: "Sep 2022 - present",
-          location: "Remote Work",
+          title: "Software engineer",
+          company: "Shipzzer",
+          company_url: "https://shipzzer.com/",
+          logo_path: "Logo-shipzzer.svg",
+          duration: "May 2023 - Present",
+          location: "Onsite Work",
           description: [
-            "⚡ Development of Software as a Service (SaaS)",
-            "⚡ Develop highly interactive Front end / User Interfaces for websites"],
+            "⚡ Participating actively in project planning and task definition, contributing to successful project execution and meeting project objectives on time.",
+            "⚡ Providing technical support and developing necessary fixes to resolve issues and ensure the proper functioning of the solution for end-users.",
+            "⚡ Conducting thorough testing and validation of developed modules and services, ensuring the reliability and quality of the software.",
+            "-Technologies : React Js, React Native, Angular, Javascript, Typescript, NodeJs, expressJs, REST API, Firebase, BigQuery"
+          ],
           color: "#4285F4",
         },
         {
           title: "Frontend developer",
-          company: "freelance",
-          logo_path: "freelance.jpg",
-          duration: "2021 - present",
+          company: "AiGot SRL",
+          company_url: "https://aigot.com/",
+          logo_path: "AiGot.jpg",
+          duration: "Sep 2022 - Apr 2023",
           location: "Remote Work",
           description: [
-            "⚡ Develop highly interactive Front end / User Interfaces for your website",
-            "⚡ Building responsive website front end using ReactJS"],
+            "⚡ Collaborating with the UX/UI designer to understand the design requirements and translate them into high-quality user interfaces.",
+            "⚡ Developing responsive web interfaces that are optimized for speed and scalability.",
+            "⚡ Integrating the frontend interfaces with REST APIs developed by the backend team using Node.js.",
+            "-Technologies : React JS, Tailwind Css, Javascript, figma, Postman, REST API ."
+          ],
+          color: "#4285F4",
+        },
+        {
+          title: "Fullstack developer",
+          company: "Upwork",
+          logo_path: "freelance.jpg",
+          duration: "Oct 2021 - Sep 2022",
+          location: "Remote Work",
+          description: [
+            "⚡ Project Management : The application allows users to create and manage their projects and tasks, view their progress, update and delete them.",
+            "-Technologies : React JS, Sass , Redux, NodeJS , ExpressJS , MongoDB ,RESTFUL API.",
+            "⚡ Social Media Application: the Application allows users to create account, follow friends, share posts (text, pictures, videos ) and react on them (comment, likes, share).",
+          "-Technologies : React JS, Sass , Redux, NodeJS , ExpressJS , MongoDB ,REST API, JWT, Cloudinary."],
           color: "#4285F4",
         },
         {
@@ -271,10 +312,7 @@ const experience = {
           duration: "Nov 2019 - Oct 2022",
           location: "Working between Tunisia && Morocco",
           description: [
-            "⚡ Install, maintain or repair equipment in accordance with commitments made with customers.",
-            "⚡ Diagnose any malfunctions and define the appropriate solutions.",
-            `⚡ Provide strong support and expertise to customers specially " Valeo Vision Morocco " .`,
-            "⚡ Identifying potential additional sales (spare parts, maintenance contracts, etc.) in agreement with the sales teams."
+            "⚡ Software and hardware technical support for customers",
           ],
           color: "#0071C5",
         },
